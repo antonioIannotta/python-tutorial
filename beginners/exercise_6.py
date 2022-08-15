@@ -1,0 +1,15 @@
+friends = ["Agostino", "Antonio", "Francesco", "Lorenzo", "Giovanni"]
+numbers = [2,4,8,10,12,14]
+print(friends[0])
+friends.append("Luca")
+print(friends)
+friends.extend(numbers)
+print(friends)
+friends.insert(3,"Marianella")
+print(friends)
+print(friends.index("Marianella")**2)
+friends.reverse()
+print(friends)
+coordinates = (10,20,10,20)
+print(coordinates.count(10))
+print(coordinates.__contains__(10))
