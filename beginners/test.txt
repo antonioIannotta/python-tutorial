@@ -1,2 +1,0 @@
-My first file written with Python!--------------------------------
-Hello World!
